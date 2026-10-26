@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up | Our Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="signup.html" class="active">Sign Up</a>
+  </nav>
+
+  <main>
+    <h1>Create Your Account</h1>
+
+    <form action="#" method="post">
+
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <fieldset>
+        <legend>Gender</legend>
+        <div class="radio-row">
+          <div>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+      <button type="submit">Sign Up</button>
+
+    </form>
+  </main>
+
+</body>
+</html>
